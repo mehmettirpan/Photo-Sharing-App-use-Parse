@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		020F290F2BAF25110002D35C /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020F290E2BAF25110002D35C /* FeedViewController.swift */; };
+		020F29112BAF25200002D35C /* UploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020F29102BAF25200002D35C /* UploadViewController.swift */; };
+		020F29132BAF2D7C0002D35C /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020F29122BAF2D7C0002D35C /* SettingsViewController.swift */; };
+		020F29152BAF99C00002D35C /* FeedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020F29142BAF99C00002D35C /* FeedTableViewCell.swift */; };
+		020F29172BAF9AF10002D35C /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020F29162BAF9AF10002D35C /* Post.swift */; };
+		0226A0892BAE207500520987 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0226A0882BAE207500520987 /* AppDelegate.swift */; };
+		0226A08B2BAE207500520987 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0226A08A2BAE207500520987 /* SceneDelegate.swift */; };
+		0226A08D2BAE207500520987 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0226A08C2BAE207500520987 /* ViewController.swift */; };
+		0226A0902BAE207500520987 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0226A08E2BAE207500520987 /* Main.storyboard */; };
+		0226A0922BAE207600520987 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0226A0912BAE207600520987 /* Assets.xcassets */; };
+		0226A0952BAE207600520987 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0226A0932BAE207600520987 /* LaunchScreen.storyboard */; };
+		028CC2C081CA5EF2CFAB4949 /* Pods_ParsePhotoSharingApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F0598C43D8C8108DEBC5D60 /* Pods_ParsePhotoSharingApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		020F290E2BAF25110002D35C /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		020F29102BAF25200002D35C /* UploadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadViewController.swift; sourceTree = "<group>"; };
+		020F29122BAF2D7C0002D35C /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		020F29142BAF99C00002D35C /* FeedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedTableViewCell.swift; sourceTree = "<group>"; };
+		020F29162BAF9AF10002D35C /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		0226A0852BAE207500520987 /* ParsePhotoSharingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParsePhotoSharingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0226A0882BAE207500520987 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0226A08A2BAE207500520987 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0226A08C2BAE207500520987 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0226A08F2BAE207500520987 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0226A0912BAE207600520987 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0226A0942BAE207600520987 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0226A0962BAE207600520987 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D5DE11E835590A93D5181D2 /* Pods-ParsePhotoSharingApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParsePhotoSharingApp.release.xcconfig"; path = "Target Support Files/Pods-ParsePhotoSharingApp/Pods-ParsePhotoSharingApp.release.xcconfig"; sourceTree = "<group>"; };
+		5F0598C43D8C8108DEBC5D60 /* Pods_ParsePhotoSharingApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ParsePhotoSharingApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F205835915C95441241EF00 /* Pods-ParsePhotoSharingApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParsePhotoSharingApp.debug.xcconfig"; path = "Target Support Files/Pods-ParsePhotoSharingApp/Pods-ParsePhotoSharingApp.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0226A0822BAE207500520987 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				028CC2C081CA5EF2CFAB4949 /* Pods_ParsePhotoSharingApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0226A07C2BAE207500520987 = {
+			isa = PBXGroup;
+			children = (
+				0226A0872BAE207500520987 /* ParsePhotoSharingApp */,
+				0226A0862BAE207500520987 /* Products */,
+				D62436657A4B5937ED04EE13 /* Pods */,
+				AB95D3C75E673F16F57CBD9D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0226A0862BAE207500520987 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0226A0852BAE207500520987 /* ParsePhotoSharingApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0226A0872BAE207500520987 /* ParsePhotoSharingApp */ = {
+			isa = PBXGroup;
+			children = (
+				0226A0882BAE207500520987 /* AppDelegate.swift */,
+				0226A08A2BAE207500520987 /* SceneDelegate.swift */,
+				0226A08C2BAE207500520987 /* ViewController.swift */,
+				020F290E2BAF25110002D35C /* FeedViewController.swift */,
+				020F29142BAF99C00002D35C /* FeedTableViewCell.swift */,
+				020F29102BAF25200002D35C /* UploadViewController.swift */,
+				020F29122BAF2D7C0002D35C /* SettingsViewController.swift */,
+				020F29162BAF9AF10002D35C /* Post.swift */,
+				0226A08E2BAE207500520987 /* Main.storyboard */,
+				0226A0912BAE207600520987 /* Assets.xcassets */,
+				0226A0932BAE207600520987 /* LaunchScreen.storyboard */,
+				0226A0962BAE207600520987 /* Info.plist */,
+			);
+			path = ParsePhotoSharingApp;
+			sourceTree = "<group>";
+		};
+		AB95D3C75E673F16F57CBD9D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5F0598C43D8C8108DEBC5D60 /* Pods_ParsePhotoSharingApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D62436657A4B5937ED04EE13 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5F205835915C95441241EF00 /* Pods-ParsePhotoSharingApp.debug.xcconfig */,
+				4D5DE11E835590A93D5181D2 /* Pods-ParsePhotoSharingApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0226A0842BAE207500520987 /* ParsePhotoSharingApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0226A0992BAE207600520987 /* Build configuration list for PBXNativeTarget "ParsePhotoSharingApp" */;
+			buildPhases = (
+				5742934CF8569AFD84AAD1F6 /* [CP] Check Pods Manifest.lock */,
+				0226A0812BAE207500520987 /* Sources */,
+				0226A0822BAE207500520987 /* Frameworks */,
+				0226A0832BAE207500520987 /* Resources */,
+				E393A6328A178884F1F2EEBF /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ParsePhotoSharingApp;
+			productName = ParsePhotoSharingApp;
+			productReference = 0226A0852BAE207500520987 /* ParsePhotoSharingApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0226A07D2BAE207500520987 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					0226A0842BAE207500520987 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 0226A0802BAE207500520987 /* Build configuration list for PBXProject "ParsePhotoSharingApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0226A07C2BAE207500520987;
+			productRefGroup = 0226A0862BAE207500520987 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0226A0842BAE207500520987 /* ParsePhotoSharingApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0226A0832BAE207500520987 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0226A0952BAE207600520987 /* LaunchScreen.storyboard in Resources */,
+				0226A0922BAE207600520987 /* Assets.xcassets in Resources */,
+				0226A0902BAE207500520987 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5742934CF8569AFD84AAD1F6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ParsePhotoSharingApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E393A6328A178884F1F2EEBF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ParsePhotoSharingApp/Pods-ParsePhotoSharingApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ParsePhotoSharingApp/Pods-ParsePhotoSharingApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ParsePhotoSharingApp/Pods-ParsePhotoSharingApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0226A0812BAE207500520987 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0226A08D2BAE207500520987 /* ViewController.swift in Sources */,
+				020F29112BAF25200002D35C /* UploadViewController.swift in Sources */,
+				020F29152BAF99C00002D35C /* FeedTableViewCell.swift in Sources */,
+				020F29172BAF9AF10002D35C /* Post.swift in Sources */,
+				0226A0892BAE207500520987 /* AppDelegate.swift in Sources */,
+				020F290F2BAF25110002D35C /* FeedViewController.swift in Sources */,
+				0226A08B2BAE207500520987 /* SceneDelegate.swift in Sources */,
+				020F29132BAF2D7C0002D35C /* SettingsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0226A08E2BAE207500520987 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0226A08F2BAE207500520987 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0226A0932BAE207600520987 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0226A0942BAE207600520987 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0226A0972BAE207600520987 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0226A0982BAE207600520987 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0226A09A2BAE207600520987 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F205835915C95441241EF00 /* Pods-ParsePhotoSharingApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C5XA58T994;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ParsePhotoSharingApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Mehmet-TIRPAN.ParsePhotoSharingApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0226A09B2BAE207600520987 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D5DE11E835590A93D5181D2 /* Pods-ParsePhotoSharingApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C5XA58T994;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ParsePhotoSharingApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Mehmet-TIRPAN.ParsePhotoSharingApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0226A0802BAE207500520987 /* Build configuration list for PBXProject "ParsePhotoSharingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0226A0972BAE207600520987 /* Debug */,
+				0226A0982BAE207600520987 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0226A0992BAE207600520987 /* Build configuration list for PBXNativeTarget "ParsePhotoSharingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0226A09A2BAE207600520987 /* Debug */,
+				0226A09B2BAE207600520987 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0226A07D2BAE207500520987 /* Project object */;
+}
