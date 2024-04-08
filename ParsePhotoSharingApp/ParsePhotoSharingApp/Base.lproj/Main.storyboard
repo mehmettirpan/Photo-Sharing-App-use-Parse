@@ -84,7 +84,7 @@
                     <connections>
                         <outlet property="passwordText" destination="4rh-iu-wcY" id="s8V-TF-NCz"/>
                         <outlet property="usernameText" destination="nY5-Lp-tNn" id="Uxl-O8-ucu"/>
-                        <segue destination="tmD-6D-XCL" kind="custom" identifier="toTabBar" id="MbJ-s3-Pxn"/>
+                        <segue destination="tmD-6D-XCL" kind="presentation" identifier="toTabBar" modalPresentationStyle="fullScreen" id="MbJ-s3-Pxn"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -143,7 +143,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="GGV-K5-qXI">
-                                <rect key="frame" x="0.0" y="50" width="375" height="679"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="763"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" rowHeight="350" id="03u-di-QPt" customClass="FeedTableViewCell" customModule="ParsePhotoSharingApp" customModuleProvider="target">
@@ -244,7 +244,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hja-hr-DOt">
-                                <rect key="frame" x="140.66666666666666" y="654.66666666666663" width="93.666666666666657" height="34.333333333333371"/>
+                                <rect key="frame" x="140.66666666666666" y="688.66666666666663" width="93.666666666666657" height="34.333333333333371"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="110" id="woZ-3w-QPs"/>
                                 </constraints>
