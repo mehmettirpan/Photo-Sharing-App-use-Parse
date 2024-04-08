@@ -1,5 +1,5 @@
 # Used in this application
-* ### MVVM model
+* ### MVC model
 * ### Parse technologies
 * ### Online Database
 # General information about the application
